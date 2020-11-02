@@ -1,19 +1,30 @@
 {
-  "name": "nec",
+  "name": "NEC",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mrthikl/SEC-FACEID.git"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp",
+    "build": "gulp build"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mrthikl/SEC-FACEID/issues"
-  },
-  "homepage": "https://github.com/mrthikl/SEC-FACEID#readme"
+  "dependencies": {
+    "@babel/core": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
+    "browser-sync": "^2.26.12",
+    "flag-icon-css": "^3.5.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-babel": "^8.0.0-beta.2",
+    "gulp-dart-sass": "^1.0.2",
+    "gulp-format-html": "^1.2.5",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-nunjucks": "^5.0.1",
+    "gulp-sourcemaps": "^2.6.5",
+    "qrcode-generator": "^1.4.4",
+    "sass": "^1.26.10",
+    "swiper": "^6.3.4"
+  }
 }
