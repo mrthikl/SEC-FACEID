@@ -26,7 +26,7 @@ const js = () =>
     .pipe(sync.stream());
 
 const img = () =>
-  src("src/img/**/*")
+  src("src/img/*")
     .pipe(imagemin())
     .pipe(dest("public/img"))
     .pipe(sync.stream());
@@ -42,7 +42,7 @@ const build = parallel(img, html, js, css);
 const watching = () => {
   sync.init({ server: { baseDir: "public" }, notify: false });
 
-  watch("src/img/**/*", img);
+  watch("src/img/*", img);
   watch("src/**/*.js", js);
   watch("src/**/*.scss", css);
   watch("src/**/*.html", html).on("change", sync.reload);
