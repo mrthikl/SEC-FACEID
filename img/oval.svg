@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="474" height="486" viewBox="0 0 474 486">
+    <defs>
+        <linearGradient id="pjjfbumuqa" x1="74.17%" x2="43.137%" y1="102.426%" y2="0%">
+            <stop offset="0%" stop-color="#FF6D12"/>
+            <stop offset="100%" stop-color="#FFA703"/>
+        </linearGradient>
+        <linearGradient id="9qfe0gijtc" x1="72.823%" x2="42.082%" y1="101.154%" y2="1.255%">
+            <stop offset="0%" stop-color="#AB2E00"/>
+            <stop offset="100%" stop-color="#FC0"/>
+        </linearGradient>
+        <filter id="3r8s7n7vhb" width="113.1%" height="110.7%" x="-7.7%" y="-5.4%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="4"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd" stroke-dasharray="4 82">
+        <g>
+            <g>
+                <g>
+                    <path stroke="#FFF" stroke-width="24" d="M219 438c120.95 0 219-98.05 219-219S339.95 0 219 0 0 98.05 0 219s98.05 219 219 219z" opacity=".3" transform="translate(-1037 -90) translate(1026 80) translate(35 34)"/>
+                    <path stroke="url(#pjjfbumuqa)" stroke-linejoin="round" stroke-width="23" d="M304.528 17.33C278.252 6.172 249.347 0 219 0 98.05 0 0 98.05 0 219s98.05 219 219 219" filter="url(#3r8s7n7vhb)" transform="translate(-1037 -90) translate(1026 80) translate(35 34)"/>
+                    <path stroke="url(#9qfe0gijtc)" stroke-linejoin="round" stroke-width="24" d="M304.528 17.33C278.252 6.172 249.347 0 219 0 98.05 0 0 98.05 0 219s102.695 219 223.646 219" transform="translate(-1037 -90) translate(1026 80) translate(35 34)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
