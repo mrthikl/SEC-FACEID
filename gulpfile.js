@@ -9,7 +9,7 @@ const sync = require("browser-sync").create();
 const formatHtml = require("gulp-format-html");
 
 const css = () =>
-  src("src/index.scss")
+  src("src/css/index.scss")
     .pipe(sourcemaps.init())
     .pipe(sass({ outputStyle: "expanded" }))
     .pipe(autoprefixer({ grid: "autoplace" }))
