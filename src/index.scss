@@ -2,6 +2,7 @@
   box-sizing: border-box;
   padding: 0;
 }
+@import './fonts/style.scss';
 
 body {
   box-sizing: border-box;
@@ -17,6 +18,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   position: relative;
+  z-index: 1;
 }
 
 .container::before {
@@ -27,6 +29,7 @@ body {
   height: 100%;
   opacity: 0.8;
   background-image: linear-gradient(299deg, #021624, #00050a 0%, #011021);
+  z-index: -1;
 }
 
 .avt {
